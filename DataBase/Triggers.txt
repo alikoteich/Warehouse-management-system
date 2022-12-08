@@ -1,0 +1,25 @@
+create trigger make_beyond_threshold
+on Items after update
+as
+begin
+	declare @i int, @d int, @t int, @id int;
+	select @id = itemID from inserted;
+	select @i = stockCount from inserted;
+	select @t = threshold from inserted;
+	if @i < @t
+		update Items set beyondThreshold = 1 where itemID = @id;
+end
+go
+
+create trigger make_below_threshold
+on Items after update
+as
+begin
+	declare @i int, @d int, @t int, @id int;
+	select @id = itemID from inserted;
+	select @i = stockCount from inserted;
+	select @t = threshold from inserted;
+	if @i > @t
+		update Items set beyondThreshold = 0 where itemID = @id;
+end
+go

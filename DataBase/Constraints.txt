@@ -1,0 +1,26 @@
+alter table employee
+add constraint minimuim_age check (age > 18)
+
+alter table employee
+add constraint minimuim_salary check (salary > 0)
+
+alter table items
+add constraint minimuim_cost check (cost > 0)
+
+alter table items
+add constraint minimuim_price check (price > 0)
+
+alter table items
+add constraint minimuim_stock_count check (stockCount > 0)
+
+alter table Items
+add constraint minimuim_threshold check (threshold > 0)
+
+alter table Invoices
+add constraint minimuim_total_price check (totalPrice > 0)
+
+alter table Orders
+add constraint minimuim_total_cost check (totalCost > 0)
+
+alter table invoicesMade
+add constraint minimuim_item_count check (itemCount > 0)

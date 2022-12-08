@@ -1,0 +1,8 @@
+Moustafa Ismail: 11879
+Ali Koteich: 11725
+
+Idea:
+We are doing a warehouse stock management system.
+The system consists of 4 sections for 4 different users
+which manages and creates deals between dealers.
+The following diagram explains the structure of the system.

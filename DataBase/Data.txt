@@ -1,0 +1,33 @@
+//employees
+INSERT Employee VALUES ('Moustafa', 'Ismail', 23, 1000, 'Adminstrator', '1234');
+
+INSERT Employee VALUES ('Ali', 'Kotiech', 23, 1000, 'Adminstrator', '1234');
+
+INSERT Employee VALUES ('Jack', 'Smith', 21, 800, 'Accountant', '1234');
+
+INSERT Employee VALUES ('Joe', 'Mary', 21, 800, 'Sales Manager', '1234');
+//Items
+INSERT Items VALUES (111, 'aaa', 'bbb', 'ccc', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (222, 'ddd', 'eee', 'ccc', 21, 10, 100, 30, 0);
+
+INSERT Items VALUES (333, 'fff', 'ggg', 'ccc', 27, 10, 100, 30, 0);
+
+INSERT Items VALUES (444, 'hhh', 'iii', 'jjj', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (555, 'kkk', 'lll', 'jjj', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (666, 'mmm', 'nnn', 'jjj', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (777, 'ooo', 'ppp', 'qqq', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (888, 'rrr', 'sss', 'qqq', 23, 17, 100, 30, 0);
+
+INSERT Items VALUES (999, 'ttt', 'uuu', 'qqq', 23, 17, 100, 30, 0);
+//Orders
+INSERT Orders VALUES ('2/2/2002', 25000)
+//ordertorecieve
+INSERT OrderToRecieve VALUES (1, 111, 50, '2/2/2222')
+//invoices
+INSERT Invoices VALUES ('2/3/2002', 25000, 1)
+

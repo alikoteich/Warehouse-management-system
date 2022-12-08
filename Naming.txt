@@ -1,0 +1,8 @@
+label: lb_name
+list: ls_name
+combo: co_name
+check: ch_name
+button: btn_name
+table: tb_name
+scroll pane: sp_name
+textField: tf_name
