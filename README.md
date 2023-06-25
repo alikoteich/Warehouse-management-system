@@ -8,8 +8,3 @@ A desktop application that manages a warehouse using Java swing.
 3. Manage invoices and orders to dealers.
 4. View available products in stick.
 5. add/remove employees.
-
-# Survey
-
-| Title                                       | Conference / Journal | Paper                                     | Code                                        | Remarks   |
-| ------------------------------------------- | ---------- | ----------------------------------------- | ------------------------------------------- |-----------|
