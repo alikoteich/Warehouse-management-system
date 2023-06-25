@@ -12,3 +12,4 @@ A desktop application that manages a warehouse using Java swing.
 # Survey
 
 | Title                                       | Conference / Journal | Paper                                     | Code                                        | Remarks   |
+| ------------------------------------------- | ---------- | ----------------------------------------- | ------------------------------------------- |-----------|
