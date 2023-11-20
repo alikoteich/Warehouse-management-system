@@ -6,5 +6,5 @@ A desktop application that manages a warehouse using Java swing.
 1. Login to the application.
 2. Recieve orders to the warehouse.
 3. Manage invoices and orders to dealers.
-4. View available products in stick.
+4. View available products in stock.
 5. add/remove employees.
